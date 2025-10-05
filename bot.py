@@ -4,7 +4,7 @@ from langdetect import detect
 import os
 
 # 🔹 Токен береться з Environment Variable на Render
-TOKEN = os.environ.get("TOKEN")
+TOKEN="MTQyNDQ0NTQ0NTU2NDAxMDUyNg.GMqcbu.6L8jb0jb0RTVgsete6w08g-GTc5hKPvkzELEmQ"
 
 # 🔹 Вкажи ID каналу перекладу
 TRANSLATOR_CHANNEL_ID = 1424469331407929564  # заміни на свій канал
