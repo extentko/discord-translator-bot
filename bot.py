@@ -56,5 +56,5 @@ async def on_message(message):
             "en": "🇬🇧"
         }.get(lang, "")
         await message.channel.send(f"{flag} ➜ {text}")
-
+print(f"TOKEN: {TOKEN}")
 client.run(TOKEN)
